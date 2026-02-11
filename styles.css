@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* CSS Loading Test */
+body[data-test] {
+    background: green !important;
+}
+
 :root {
     --primary-color: #2d5016;
     --secondary-color: #4a7c1f;
